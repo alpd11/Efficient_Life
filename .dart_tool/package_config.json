@@ -137,10 +137,10 @@
       "name": "efficient_life_project",
       "rootUri": "../",
       "packageUri": "lib/",
-      "languageVersion": "2.7"
+      "languageVersion": "2.12"
     }
   ],
-  "generated": "2021-04-18T14:15:53.601681Z",
+  "generated": "2021-05-02T10:13:42.226872Z",
   "generator": "pub",
   "generatorVersion": "2.12.3"
 }
