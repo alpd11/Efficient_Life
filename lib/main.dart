@@ -1,9 +1,15 @@
 import 'package:flutter/material.dart';
 
-void main() => runApp(const MyApp());
+
+// MR D... Projeyi baslatirken olur da crashlerse her zaman terminalden (veya editorunde varsa ordan) "flutter pub get" yap belki duzelir.
+
+void main() {
+  runApp(MyApp());
+}
 
 /// This is the main application widget.
 class MyApp extends StatelessWidget {
+
   const MyApp({Key? key}) : super(key: key);
 
   static const String _title = 'Flutter Code Sample';
@@ -13,6 +19,7 @@ class MyApp extends StatelessWidget {
     return const MaterialApp(
       title: _title,
       home: MyStatefulWidget(),
+
     );
   }
 }
@@ -50,6 +57,7 @@ class _MyStatefulWidgetState extends State<MyStatefulWidget> {
         child: const Icon(Icons.add),
       ),
       floatingActionButtonLocation: FloatingActionButtonLocation.centerDocked,
+
     );
   }
 }
