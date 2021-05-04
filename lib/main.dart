@@ -23,12 +23,15 @@ class MyApp extends StatelessWidget {
 class Home extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    return Column(
-      children: [
-        // placeholderlar
-        EfficiencyCircle(),
-        ActivityHistory(),
-      ],
+    return Container(
+      color: Colors.white,
+      child: Column(
+        children: [
+          // placeholderlar
+          EfficiencyCircle(),
+          ActivityHistory(),
+        ],
+      ),
     );
   }
 }
