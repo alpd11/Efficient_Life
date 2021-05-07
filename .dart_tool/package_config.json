@@ -3,19 +3,23 @@
   "packages": [
     {
       "name": "async",
+
       "rootUri": "file:///Users/alpdurmusoglu/flutter/.pub-cache/hosted/pub.dartlang.org/async-2.5.0",
+
       "packageUri": "lib/",
       "languageVersion": "2.12"
     },
     {
       "name": "boolean_selector",
       "rootUri": "file:///Users/alpdurmusoglu/flutter/.pub-cache/hosted/pub.dartlang.org/boolean_selector-2.1.0",
+
       "packageUri": "lib/",
       "languageVersion": "2.12"
     },
     {
       "name": "characters",
       "rootUri": "file:///Users/alpdurmusoglu/flutter/.pub-cache/hosted/pub.dartlang.org/characters-1.1.0",
+
       "packageUri": "lib/",
       "languageVersion": "2.12"
     },
@@ -39,7 +43,7 @@
     },
     {
       "name": "cupertino_icons",
-      "rootUri": "file:///Users/alpdurmusoglu/flutter/.pub-cache/hosted/pub.dartlang.org/cupertino_icons-1.0.0",
+      "rootUri": "file:///home/ts/.pub-cache/hosted/pub.dartlang.org/cupertino_icons-1.0.0",
       "packageUri": "lib/",
       "languageVersion": "2.0"
     },
@@ -51,13 +55,13 @@
     },
     {
       "name": "flutter",
-      "rootUri": "file:///Users/alpdurmusoglu/flutter/packages/flutter",
+      "rootUri": "file:///opt/flutter/packages/flutter",
       "packageUri": "lib/",
       "languageVersion": "2.12"
     },
     {
       "name": "flutter_test",
-      "rootUri": "file:///Users/alpdurmusoglu/flutter/packages/flutter_test",
+      "rootUri": "file:///opt/flutter/packages/flutter_test",
       "packageUri": "lib/",
       "languageVersion": "2.12"
     },
@@ -81,7 +85,7 @@
     },
     {
       "name": "sky_engine",
-      "rootUri": "file:///Users/alpdurmusoglu/flutter/bin/cache/pkg/sky_engine",
+      "rootUri": "file:///opt/flutter/bin/cache/pkg/sky_engine",
       "packageUri": "lib/",
       "languageVersion": "2.12"
     },
@@ -140,7 +144,8 @@
       "languageVersion": "2.12"
     }
   ],
-  "generated": "2021-05-03T17:45:36.767850Z",
+
+  "generated": "2021-05-03T18:41:11.542352Z",
   "generator": "pub",
   "generatorVersion": "2.12.3"
 }

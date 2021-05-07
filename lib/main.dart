@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'activity_history.dart';
+import 'efficiency_circle.dart';
 
 // MR D... Projeyi baslatirken olur da crashlerse her zaman terminalden (veya editorunde varsa ordan) "flutter pub get" yap belki duzelir.
 
@@ -21,12 +23,15 @@ class MyApp extends StatelessWidget {
 class Home extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    return Column(
-      children: [
-        // placeholderlar
-        Text('Circle'),
-        Text('Task array'),
-      ],
+    return Container(
+      color: Colors.white,
+      child: Column(
+        children: [
+          // placeholderlar
+          EfficiencyCircle(),
+          ActivityHistory(),
+        ],
+      ),
     );
   }
 }
