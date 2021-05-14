@@ -9,25 +9,27 @@ class ActivityHistory extends StatelessWidget {
     for (var i = 0; i < num; i++) {
       cards.add(new HistoryCard());
       cards.add(new SizedBox(
-          height: 10,
+        height: 10,
       ));
     }
     return Padding(
       padding: const EdgeInsets.only(left: 75.0),
       child: RotatedBox(
           quarterTurns: 3,
-          child: Expanded(
-            child: SizedBox(
-              width: 165,
-              child: new ListView.builder(
-                scrollDirection: Axis.vertical,
-                itemCount: cards.length,
-                itemBuilder: (BuildContext ctxt, int index) {
-                  return cards[index];
-                },
+          child: Column(children: [
+            Expanded(
+              child: SizedBox(
+                width: 165,
+                child: new ListView.builder(
+                  scrollDirection: Axis.vertical,
+                  itemCount: cards.length,
+                  itemBuilder: (BuildContext ctxt, int index) {
+                    return cards[index];
+                  },
+                ),
               ),
             ),
-          )),
+          ])),
     );
   }
 }
